@@ -46,8 +46,7 @@ body {
 
 #nav {
   list-style-type: none;
-  height: 5vh;
-  transform: translateX(-15%); }
+  height: 5vh; }
   #nav li {
     display: inline-block;
     margin-right: 1vw;
@@ -71,8 +70,7 @@ body {
   height: 20vh; }
   #intro h1 {
     color: #FFF;
-    line-height: 20vh;
-    transform: translateX(-15%); }
+    line-height: 20vh; }
 
 #logo {
   float: left;
