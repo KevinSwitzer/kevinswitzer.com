@@ -7,23 +7,96 @@
 </head>
 
 <body>
-    <div id="logo">
-        <img src="/images/logo-work.png" />
-    </div>
+    <div id="container">
+        <div id="logo">
+            <img src="/images/logo-work.png" />
+        </div>
 
-    <ul id="nav">
-        <% navigation.map((nav, index)=>{ %>
-            <li>
-                <a href="<%=nav.link%>">
-                    <i class="fa-solid fa-<%=nav.icon%>"></i>
-                    <%=nav.title%>
-                </a>
-            </li>
-            <% }) %>
-    </ul>
+        <ul id="nav">
+            <% navigation.map((nav, index)=>{ %>
+                <li>
+                    <a href="<%=nav.link%>">
+                        <i class="fa-solid fa-<%=nav.icon%>"></i>
+                        <%=nav.title%>
+                    </a>
+                </li>
+                <% }) %>
+        </ul>
 
-    <div id="intro">
-        <h1>Work... it's what I do.</h1>
+        <div id="intro">
+            <h1>Work... it's what I do.</h1>
+        </div>
+
+        <div id="content">
+            <div class="resume">
+                <div>
+                    <span class="jobtitle">Web Development Specialist</span> — <span
+                        class="employer">Florida Virtual School</span>, <span class="location">Orlando, FL</span> — <span
+                        class="dates">April 2013 to Present</span>
+                    <ul class="tasks">
+                        <li>Worked with a team of Subject Matter Experts, Curriculum Specialists, Instructional Designers,
+                            and more to develop and deliver courses and interactive tools to increase student engagement and
+                            success.
+                        </li>
+                        <li>Acted as lead developer on twelve courses, utilizing HTML, CSS, JavaScript, jQuery, and
+                            AngularJS.
+                        </li>
+                        <li>Used JavaScript, jQuery, the Web Speech API, and Google Analytics to develop Simply Speak, a
+                            speech practice tool which can be used with nearly 200 languages to increase student foreign
+                            language fluency.
+                        </li>
+                        <li>Developed a keyboarding tool using JavaScript, jQuery, and JSON to increase student typing
+                            proficiency.
+                        </li>
+                        <li>Created a Wellness Dashboard using PHP, MySQL, and various APIs to let students track fitness
+                            and dietary goals in the Health Opportunities through Physical Education (HOPE) course.
+                        </li>
+                        <li>Worked on an Agile team developing a collaborative page layout and course development tool built
+                            in Electron using Node.js and Vue.js.
+                        </li>
+                        <li>Demonstrated effective time management skills and coordinated with managers, stakeholders, and
+                            other team members to discuss project status and address issues as early as possible to ensure
+                            on-time or early delivery.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="resume experience">
+                <div>Other places I've worked</div>
+                <div>
+                    <span><img src="images/employers/democrat.png" height="60" width="233"/></span>
+                    <span><img src="images/employers/jumptv.png" height="57" width="200"/></span>
+                    <span><img src="images/employers/geolearning.jpg" height="60" width="147"/></span>
+                    <span><img src="images/employers/stamats.png" height="60" width="189"/></span>
+                    <span><img src="images/employers/cornellcollege.png" height="60" width="94"/></span>
+                </div>
+            </div>
+
+            <div class="resume">
+                <div>Awards and nominations</div>
+                <div>
+                    <ul class="tasks">
+                        <li>EdTech Cool Tool Award (2020) nomination in the “Language Learning Solution” category for Simply
+                            Speak.
+                        </li>
+                        <li>CODiE Award (2020) nomination in the “Best ESL, ELL or World Language Acquisition Solution”
+                            category for Simply Speak.
+                        </li>
+                        <li>CODiE Award (2020) nomination in the “Best Use of Emerging Technology for Learning in Education”
+                            category for Simply Speak.
+                        </li>
+                        <li>IMS Global Learning Impact Award (2020) finalist for Simply Speak.</li>
+                        <li class="award">Best Multi-Media Campaign at the Florida Newspaper Advertising and Marketing
+                            Executives (FNAME) 2009 Annual Conference for Our Body.
+                        </li>
+                        <li class="award">Gold Award in Admissions Marketing Report, January 2003 for the Cornell College
+                            Virtual Dorm.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 

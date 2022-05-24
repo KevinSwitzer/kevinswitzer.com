@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Kevin Switzer: <%=page.charAt(0).toUpperCase() + page.slice(1)%></title>∏
+    <title>Kevin Switzer: <%=page.charAt(0).toUpperCase() + page.slice(1)%>
+    </title>
     <script src="https://kit.fontawesome.com/955e8c8151.js" crossorigin="anonymous"></script>
     <link href="css/theme.css" rel="stylesheet">
 </head>
 
 <body>
-    <div id="logo">
-        <img src="/images/logo-contact.png" />
-    </div>
+    <div id="container">
+        <div id="logo">
+            <img src="/images/logo-contact.png" />
+        </div>
 
-    <ul id="nav">
-        <% navigation.map((nav, index)=>{ %>
-            <li>
-                <a href="<%=nav.link%>">
-                    <i class="fa-solid fa-<%=nav.icon%>"></i>
-                    <%=nav.title%>
-                </a>
-            </li>
-            <% }) %>
-    </ul>
+        <ul id="nav">
+            <% navigation.map((nav, index)=>{ %>
+                <li>
+                    <a href="<%=nav.link%>">
+                        <i class="fa-solid fa-<%=nav.icon%>"></i>
+                        <%=nav.title%>
+                    </a>
+                </li>
+                <% }) %>
+        </ul>
 
-    <div id="intro">
-        <h1>Let's connect...</h1>
+        <div id="intro">
+            <h1>Let's connect...</h1>
+        </div>
     </div>
 </body>
+
 </html>

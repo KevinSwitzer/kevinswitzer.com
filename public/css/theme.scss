@@ -25,9 +25,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
 blockquote, q {
 	quotes: none;
 }
@@ -54,6 +51,7 @@ body {
 #nav {
     list-style-type: none;
     height: 5vh;
+    transform: translateX(-15%);
 
     li {
         display: inline-block;
@@ -91,15 +89,22 @@ body {
     h1 {
         color: #FFF;
         line-height: 20vh;
+        transform: translateX(-15%);
     }
 }
 
 #logo {
     float: left;
     margin: 1vh;
+    margin: 1vh 0 1vh 20vw;
 
     img {
         height: 25vh;
     }
 }
 
+.resume {
+    clear: left;
+    width: 50vw;
+    margin: 0 auto;
+}
