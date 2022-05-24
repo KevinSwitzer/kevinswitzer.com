@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Home",
+        "link": "/",
+        "icon": "house-chimney"
+    },
+    {
+        "title": "Work",
+        "link": "/work",
+        "icon": "laptop-code"
+    },
+    {
+        "title": "Contact",
+        "link": "/contact",
+        "icon": "envelope"
+    }
+]

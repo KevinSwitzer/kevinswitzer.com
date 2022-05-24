@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kevin Switzer</title>
+    <script src="https://kit.fontawesome.com/955e8c8151.js" crossorigin="anonymous"></script>
+    <link href="css/theme.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="logo">
+        <img src="/images/logo-index.png" />
+    </div>
+
+    <ul id="nav">
+        <% navigation.map((nav, index)=>{ %>
+            <li>
+                <a href="<%=nav.link%>">
+                    <i class="fa-solid fa-<%=nav.icon%>"></i>
+                    <%=nav.title%>
+                </a>
+            </li>
+            <% }) %>
+    </ul>
+
+    <div id="intro">
+        <h1>Hey, I'm Kevin!</h1>
+    </div>
+</body>
+
+</html>
