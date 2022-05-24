@@ -7,23 +7,25 @@
 </head>
 
 <body>
-    <div id="logo">
-        <img src="/images/logo-index.png" />
-    </div>
+    <div id="container">
+        <div id="logo">
+            <img src="/images/logo-index.png" />
+        </div>
 
-    <ul id="nav">
-        <% navigation.map((nav, index)=>{ %>
-            <li>
-                <a href="<%=nav.link%>">
-                    <i class="fa-solid fa-<%=nav.icon%>"></i>
-                    <%=nav.title%>
-                </a>
-            </li>
-            <% }) %>
-    </ul>
+        <ul id="nav">
+            <% navigation.map((nav, index)=>{ %>
+                <li>
+                    <a href="<%=nav.link%>">
+                        <i class="fa-solid fa-<%=nav.icon%>"></i>
+                        <%=nav.title%>
+                    </a>
+                </li>
+                <% }) %>
+        </ul>
 
-    <div id="intro">
-        <h1>Hey, I'm Kevin!</h1>
+        <div id="intro">
+            <h1>Hey, I'm Kevin!</h1>
+        </div>
     </div>
 </body>
 
